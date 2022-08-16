@@ -91,3 +91,17 @@ public class Point
 // var pair = new Pair<int, string>(1, "two");
 // int i = pair.First;     //TFirst int
 // string s = pair.Second; //TSecond string
+
+// inheritence
+
+// public class Point3D : Point ... 
+
+// structs - no inheritence - primarily used to hold hold data values
+
+// public struct Point
+// {
+//     public double X { get; }
+//     public double Y { get; }
+
+//     public Point(double x, double y) => (X, Y) = (x, y);
+// }

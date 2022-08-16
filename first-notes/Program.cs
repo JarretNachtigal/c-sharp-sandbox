@@ -27,3 +27,8 @@ Console.WriteLine("Hello, World!");
 
 // reference - stores data as a reference/ stores the a pointer to the address of the data - if passed into a method and changed
 // the same location is referenced, and it will change
+
+// String
+// Arrays (even if their elements are value types)
+// Class
+// Delegate

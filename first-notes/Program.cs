@@ -48,3 +48,19 @@ class Hello
 // int i = 123;
 // object o = i;    // Boxing
 // int j = (int)o;  // Unboxing
+
+// HEAP AND STACK
+
+// STACK
+// local value types (primitives)
+// pointers to objects on heap
+// structs
+// new scope = new stack frame
+
+// HEAP
+// reference/object types - heap
+// copies from the heap will be pointers to the same memory on the stack (changing one changes both)
+// things that need to persist beyond local scopes
+
+// Classes
+

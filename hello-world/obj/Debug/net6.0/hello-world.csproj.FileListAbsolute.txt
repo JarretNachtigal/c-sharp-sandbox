@@ -1,0 +1,15 @@
+/Users/jarretnachtigal/Personal-code/c-sharp-sandbox/hello-world/bin/Debug/net6.0/hello-world
+/Users/jarretnachtigal/Personal-code/c-sharp-sandbox/hello-world/bin/Debug/net6.0/hello-world.deps.json
+/Users/jarretnachtigal/Personal-code/c-sharp-sandbox/hello-world/bin/Debug/net6.0/hello-world.runtimeconfig.json
+/Users/jarretnachtigal/Personal-code/c-sharp-sandbox/hello-world/bin/Debug/net6.0/hello-world.dll
+/Users/jarretnachtigal/Personal-code/c-sharp-sandbox/hello-world/bin/Debug/net6.0/hello-world.pdb
+/Users/jarretnachtigal/Personal-code/c-sharp-sandbox/hello-world/obj/Debug/net6.0/hello-world.csproj.AssemblyReference.cache
+/Users/jarretnachtigal/Personal-code/c-sharp-sandbox/hello-world/obj/Debug/net6.0/hello-world.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jarretnachtigal/Personal-code/c-sharp-sandbox/hello-world/obj/Debug/net6.0/hello-world.AssemblyInfoInputs.cache
+/Users/jarretnachtigal/Personal-code/c-sharp-sandbox/hello-world/obj/Debug/net6.0/hello-world.AssemblyInfo.cs
+/Users/jarretnachtigal/Personal-code/c-sharp-sandbox/hello-world/obj/Debug/net6.0/hello-world.csproj.CoreCompileInputs.cache
+/Users/jarretnachtigal/Personal-code/c-sharp-sandbox/hello-world/obj/Debug/net6.0/hello-world.dll
+/Users/jarretnachtigal/Personal-code/c-sharp-sandbox/hello-world/obj/Debug/net6.0/refint/hello-world.dll
+/Users/jarretnachtigal/Personal-code/c-sharp-sandbox/hello-world/obj/Debug/net6.0/hello-world.pdb
+/Users/jarretnachtigal/Personal-code/c-sharp-sandbox/hello-world/obj/Debug/net6.0/hello-world.genruntimeconfig.cache
+/Users/jarretnachtigal/Personal-code/c-sharp-sandbox/hello-world/obj/Debug/net6.0/ref/hello-world.dll

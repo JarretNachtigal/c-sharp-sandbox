@@ -74,3 +74,20 @@ public class Point
 
 // var p1 = new Point(0, 0);
 // var p2 = new Point(10, 20);
+
+// Type Parameters
+
+// public class Pair<TFirst, TSecond>
+// {
+//     public TFirst First { get; }
+//     public TSecond Second { get; }
+
+//     public Pair(TFirst first, TSecond second) => 
+//         (First, Second) = (first, second);
+// }
+
+// define type params in instantiation
+
+// var pair = new Pair<int, string>(1, "two");
+// int i = pair.First;     //TFirst int
+// string s = pair.Second; //TSecond string

@@ -105,3 +105,23 @@ public class Point
 
 //     public Point(double x, double y) => (X, Y) = (x, y);
 // }
+
+// interface - contract for classes/structs to follow in implementation
+
+// interface IControl
+// {
+//     void Paint();
+// }
+
+// interface ITextBox : IControl
+// {
+//     void SetText(string text);
+// }
+
+// interface IListBox : IControl
+// {
+//     void SetItems(string[] items);
+// }
+
+// interface IComboBox : ITextBox, IListBox { }
+

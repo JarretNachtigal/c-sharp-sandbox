@@ -3,14 +3,14 @@
 // dotnet run (optional filename)
 // Console.WriteLine("top level statements take precedence, breaks Main() or at least gives a warning");
 // main method must be in a class
-class Hello
-{
-  static void Main(String[] args)
-  {
-    Console.WriteLine("main does not take precedence with top level statements");
-  }
+// class Hello
+// {
+//   static void Main(String[] args)
+//   {
+//     Console.WriteLine("main does not take precedence with top level statements");
+//   }
 
-}
+// }
 
 // reference vs value types
 
@@ -64,13 +64,13 @@ class Hello
 
 // Classes
 
-public class Point
-{
-  public int X { get; }
-  public int Y { get; }
+// public class Point
+// {
+//   public int X { get; }
+//   public int Y { get; }
 
-  public Point(int x, int y) => (X, Y) = (x, y);
-}
+//   public Point(int x, int y) => (X, Y) = (x, y);
+// }
 
 // var p1 = new Point(0, 0);
 // var p2 = new Point(10, 20);
@@ -127,23 +127,44 @@ public class Point
 
 
 // enums
+namespace TestingEnum
+{
+  class program
+  {
 
-// public enum SomeRootVegetable
-// {
-//     HorseRadish,
-//     Radish,
-//     Turnip
-// }
+    public enum SomeRootVegetable
+    {
+      HorseRadish,
+      Radish,
+      Turnip
+    }
 
-// can be used with flags
+    // can be used with flags
 
-//[Flags]
-// public enum Seasons
-// {
-//     None = 0,
-//     Summer = 1,
-//     Autumn = 2,
-//     Winter = 4,
-//     Spring = 8,
-//     All = Summer | Autumn | Winter | Spring
-// }
+    [Flags]
+    public enum Seasons
+    {
+      None = 0,
+      Summer = 1,
+      Autumn = 2,
+      Winter = 4,
+      Spring = 8,
+      All = Summer | Autumn | Winter | Spring
+    }
+    static void Main(String[] args)
+    {
+
+
+      // use
+
+      var turnip = SomeRootVegetable.Turnip;
+      var spring = Seasons.Spring;
+      int springVal = (int)Seasons.Spring;
+      var startingOnEquinox = Seasons.Spring | Seasons.Autumn;
+      var theYear = Seasons.All;
+
+      Console.WriteLine($"{turnip}, {spring}, {springVal}, {startingOnEquinox}, {theYear}");
+      // 
+    }
+  }
+}

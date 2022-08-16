@@ -19,3 +19,7 @@
     }
   }
 }
+
+// make new folder mkdir ...
+// new program dotnet new console --framework net6.0 -n name
+// dotnet run (optional filename)

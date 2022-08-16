@@ -40,3 +40,6 @@ class Hello
 // Arrays (even if their elements are value types)
 // Class
 // Delegate
+
+// For each non-nullable type T, there's a corresponding nullable type T?, which can hold an additional value, null. 
+// For instance, int? is a type that can hold any 32-bit integer or the value null

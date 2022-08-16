@@ -169,7 +169,8 @@ namespace TestingEnum
   }
 }
 
-// tuples
+// tuples - declare the types and names of the members between ( and ) - lightweight
+// hold multiple data elements
 
 // (double Sum, int Count) t2 = (4.5, 3);
 // Console.WriteLine($"Sum of {t2.Count} elements is {t2.Sum}.");

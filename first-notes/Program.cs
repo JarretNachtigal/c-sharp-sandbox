@@ -43,3 +43,8 @@ class Hello
 
 // For each non-nullable type T, there's a corresponding nullable type T?, which can hold an additional value, null. 
 // For instance, int? is a type that can hold any 32-bit integer or the value null
+
+// turn value/reference data types from one to another
+// int i = 123;
+// object o = i;    // Boxing
+// int j = (int)o;  // Unboxing

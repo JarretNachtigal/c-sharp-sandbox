@@ -1,0 +1,15 @@
+/Users/jarretnachtigal/Personal-code/c-sharp-sandbox/first-notes/bin/Debug/net6.0/first-notes
+/Users/jarretnachtigal/Personal-code/c-sharp-sandbox/first-notes/bin/Debug/net6.0/first-notes.deps.json
+/Users/jarretnachtigal/Personal-code/c-sharp-sandbox/first-notes/bin/Debug/net6.0/first-notes.runtimeconfig.json
+/Users/jarretnachtigal/Personal-code/c-sharp-sandbox/first-notes/bin/Debug/net6.0/first-notes.dll
+/Users/jarretnachtigal/Personal-code/c-sharp-sandbox/first-notes/bin/Debug/net6.0/first-notes.pdb
+/Users/jarretnachtigal/Personal-code/c-sharp-sandbox/first-notes/obj/Debug/net6.0/first-notes.csproj.AssemblyReference.cache
+/Users/jarretnachtigal/Personal-code/c-sharp-sandbox/first-notes/obj/Debug/net6.0/first-notes.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jarretnachtigal/Personal-code/c-sharp-sandbox/first-notes/obj/Debug/net6.0/first-notes.AssemblyInfoInputs.cache
+/Users/jarretnachtigal/Personal-code/c-sharp-sandbox/first-notes/obj/Debug/net6.0/first-notes.AssemblyInfo.cs
+/Users/jarretnachtigal/Personal-code/c-sharp-sandbox/first-notes/obj/Debug/net6.0/first-notes.csproj.CoreCompileInputs.cache
+/Users/jarretnachtigal/Personal-code/c-sharp-sandbox/first-notes/obj/Debug/net6.0/first-notes.dll
+/Users/jarretnachtigal/Personal-code/c-sharp-sandbox/first-notes/obj/Debug/net6.0/refint/first-notes.dll
+/Users/jarretnachtigal/Personal-code/c-sharp-sandbox/first-notes/obj/Debug/net6.0/first-notes.pdb
+/Users/jarretnachtigal/Personal-code/c-sharp-sandbox/first-notes/obj/Debug/net6.0/first-notes.genruntimeconfig.cache
+/Users/jarretnachtigal/Personal-code/c-sharp-sandbox/first-notes/obj/Debug/net6.0/ref/first-notes.dll

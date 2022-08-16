@@ -1,8 +1,16 @@
 ﻿// make new folder mkdir ...
 // new program dotnet new console --framework net6.0 -n name
 // dotnet run (optional filename)
-Console.WriteLine("Hello, World!");
+// Console.WriteLine("top level statements take precedence, breaks Main() or at least gives a warning");
+// main method must be in a class
+class Hello
+{
+  static void Main(String[] args)
+  {
+    Console.WriteLine("main takes precedence");
+  }
 
+}
 
 // reference vs value types
 

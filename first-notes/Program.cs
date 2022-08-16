@@ -7,7 +7,7 @@ class Hello
 {
   static void Main(String[] args)
   {
-    Console.WriteLine("main takes precedence");
+    Console.WriteLine("main does not take precedence with top level statements");
   }
 
 }

@@ -86,7 +86,7 @@ public class Point
 //         (First, Second) = (first, second);
 // }
 
-// define type params in instantiation
+// define type params in instantiation "constructed type"
 
 // var pair = new Pair<int, string>(1, "two");
 // int i = pair.First;     //TFirst int

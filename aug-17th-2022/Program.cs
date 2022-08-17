@@ -1,53 +1,41 @@
-﻿// See https://aka.ms/new-console-template for more information
-
-using System;
+﻿
 
 class StaticAndInstanceFieldsExample
 {
-  //An instance constructor is a member that implements the actions required to initialize an instance of a class. 
+  // static fields will be shared between all instances of the class
   //A static constructor is a member that implements the actions required to initialize a class itself when it's first loaded.
+  //  ------ not called --------
   static StaticAndInstanceFieldsExample()//takes no params, cannot be called manually
   {
     shared = 1000;
   }
-  public StaticAndInstanceFieldsExample()
+  //An instance constructor is a member that implements the actions required to initialize an instance of a class. 
+  public StaticAndInstanceFieldsExample(int val)
   {
-
+    instance = val;
   }
 
-  // static fields will be shared between all instances of the class
   static int shared;
   int instance;
 
-  public int getShared()
+  public void DoThing()
   {
-    return shared;
+    Console.WriteLine($"{shared}, {instance}");
   }
-  // PROPERTIES
-  // public int Shared => shared;
-  // public int Instance
-  // {
-  //   get => instance;
-  //   set
-  //   {
-  //     instance = value; // value is the 'param' - test1.Instance = 9999(this part)
-  //   }
-  // }
-  public int Instance { get; set; } // this also works to make accessors
-
-  public int getInstance()
+  // PROPERTIES - accessors
+  public int Shared
   {
-    return instance;
+    get => shared;
+    set => shared = value;
   }
 
-  public void setInstance(int newVal)
+  public int Instance
   {
-    instance = newVal;
-  }
-
-  public static void setShared(int newVal)
-  {
-    shared = newVal;
+    get => instance;
+    set
+    {
+      instance = value; // value is the 'param' - test1.Instance = 9999(this part)
+    }
   }
 }
 
@@ -57,22 +45,30 @@ class Program
 {
   static void Main(string[] args)
   {
-    StaticAndInstanceFieldsExample test1 = new StaticAndInstanceFieldsExample();
-    StaticAndInstanceFieldsExample test2 = new StaticAndInstanceFieldsExample();
+    StaticAndInstanceFieldsExample test1 = new StaticAndInstanceFieldsExample(1);
+    StaticAndInstanceFieldsExample test2 = new StaticAndInstanceFieldsExample(2);
     // test standard setters and getters
-    test1.setInstance(1);
-    test2.setInstance(2);
+    // test1.setInstance(1);
+    // test2.setInstance(2);
     // test1.setShared(10); // would be called this way if not a static method
-    Console.WriteLine($"test1 = {test1.getInstance()}, test2 = {test2.getInstance()} shared value from static constructor = {test1.getShared()} and {test2.getShared()}");
-    Console.WriteLine("changing values");
-    StaticAndInstanceFieldsExample.setShared(100); // called this way because its a static method
-    test1.setInstance(10);
-    Console.WriteLine($"test1 = {test1.getInstance()}, test2 = {test2.getInstance()} shared value = {test1.getShared()} and {test2.getShared()}");
+    // Console.WriteLine($"test1 = {test1.getInstance()}, test2 = {test2.getInstance()} shared value from static constructor = {test1.getShared()} and {test2.getShared()}");
+    // Console.WriteLine("changing values");
+    // StaticAndInstanceFieldsExample.setShared(100); // called this way because its a static method
+    // test1.setInstance(10);
+    // Console.WriteLine($"test1 = {test1.getInstance()}, test2 = {test2.getInstance()} shared value = {test1.getShared()} and {test2.getShared()}");
 
     // test properties - basically setters and getters
 
     Console.WriteLine(test1.Instance);
-    test1.Instance = 9999;
+    test1.Instance = 10;
+    Console.WriteLine(test1.Instance);
+    int val = test1.Shared; //  why is this not 1000?
+    val = test1.Shared;
+    Console.WriteLine(val); // static field and accessors
+    test1.Shared = 9999; // static field and accessors
+    val = test1.Shared;
+    Console.WriteLine(val); // static field and accessors
+    test1.Instance = 100;
     Console.WriteLine(test1.Instance);
   }
 

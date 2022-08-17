@@ -3,6 +3,8 @@
 class StaticAndInstanceFieldsExample
 {
   // static fields will be shared between all instances of the class
+  static int shared;
+  int instance;
   //A static constructor is a member that implements the actions required to initialize a class itself when it's first loaded.
   //  ------ not called --------
   static StaticAndInstanceFieldsExample()//takes no params, cannot be called manually
@@ -15,8 +17,6 @@ class StaticAndInstanceFieldsExample
     instance = val;
   }
 
-  static int shared;
-  int instance;
 
   public void DoThing()
   {

@@ -12,6 +12,8 @@ class Program
   // remembet that String is a reference type, not a value type
   public static String exampleFunction(int num)
   {
-    return "${num} entered";
+    int localVariable = 4;
+    Console.WriteLine($"{localVariable}");
+    return $"{num} entered";
   }
 }

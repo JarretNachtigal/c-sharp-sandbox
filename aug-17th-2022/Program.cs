@@ -23,7 +23,7 @@ class StaticAndInstanceFieldsExample
     Console.WriteLine($"{shared}, {instance}");
   }
   // PROPERTIES - accessors
-  public int Shared
+  public static int Shared
   {
     get => shared;
     set => shared = value;
@@ -62,11 +62,11 @@ class Program
     Console.WriteLine(test1.Instance);
     test1.Instance = 10;
     Console.WriteLine(test1.Instance);
-    int val = test1.Shared; //  why is this not 1000?
-    val = test1.Shared;
+    int val = StaticAndInstanceFieldsExample.Shared;
+    val = StaticAndInstanceFieldsExample.Shared;
     Console.WriteLine(val); // static field and accessors
-    test1.Shared = 9999; // static field and accessors
-    val = test1.Shared;
+    StaticAndInstanceFieldsExample.Shared = 9999; // static field and accessors
+    val = StaticAndInstanceFieldsExample.Shared;
     Console.WriteLine(val); // static field and accessors
     test1.Instance = 100;
     Console.WriteLine(test1.Instance);

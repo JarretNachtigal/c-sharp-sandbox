@@ -24,15 +24,16 @@ class StaticAndInstanceFieldsExample
     return shared;
   }
   // PROPERTIES
-  public int Shared => shared;
-  public int Instance
-  {
-    get => instance;
-    set
-    {
-      instance = value; // value is the 'param' - test1.Instance = 9999(this part)
-    }
-  }
+  // public int Shared => shared;
+  // public int Instance
+  // {
+  //   get => instance;
+  //   set
+  //   {
+  //     instance = value; // value is the 'param' - test1.Instance = 9999(this part)
+  //   }
+  // }
+  public int Instance { get; set; } // this also works to make accessors
 
   public int getInstance()
   {

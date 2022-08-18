@@ -55,10 +55,7 @@
       // Console.WriteLine(item);
     }
 
-    // or
-
     // init with values
     int[] d = new int[3] { 1, 2, 3 };
-
   }
 }

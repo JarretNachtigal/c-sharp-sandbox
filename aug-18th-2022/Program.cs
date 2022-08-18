@@ -1,9 +1,11 @@
-﻿namespace ArraysNotes;
+﻿using static ArraysNotes.ArraysNotes;
+using static LambdaNotes.LambdaNotes;
 
 class Program
 {
   public static void Main(String[] args)
   {
-    ArraysNotes.Notes();
+    ArraysNotes.ArraysNotes.Notes();
+    LambdaNotes.LambdaNotes.Notes();
   }
 }

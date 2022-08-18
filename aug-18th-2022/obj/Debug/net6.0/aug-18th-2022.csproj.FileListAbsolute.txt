@@ -1,0 +1,15 @@
+/Users/jarretnachtigal/Personal-code/c-sharp-sandbox/aug-18th-2022/obj/Debug/net6.0/aug-18th-2022.csproj.AssemblyReference.cache
+/Users/jarretnachtigal/Personal-code/c-sharp-sandbox/aug-18th-2022/obj/Debug/net6.0/aug-18th-2022.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jarretnachtigal/Personal-code/c-sharp-sandbox/aug-18th-2022/obj/Debug/net6.0/aug-18th-2022.AssemblyInfoInputs.cache
+/Users/jarretnachtigal/Personal-code/c-sharp-sandbox/aug-18th-2022/obj/Debug/net6.0/aug-18th-2022.AssemblyInfo.cs
+/Users/jarretnachtigal/Personal-code/c-sharp-sandbox/aug-18th-2022/obj/Debug/net6.0/aug-18th-2022.csproj.CoreCompileInputs.cache
+/Users/jarretnachtigal/Personal-code/c-sharp-sandbox/aug-18th-2022/bin/Debug/net6.0/aug-18th-2022
+/Users/jarretnachtigal/Personal-code/c-sharp-sandbox/aug-18th-2022/bin/Debug/net6.0/aug-18th-2022.deps.json
+/Users/jarretnachtigal/Personal-code/c-sharp-sandbox/aug-18th-2022/bin/Debug/net6.0/aug-18th-2022.runtimeconfig.json
+/Users/jarretnachtigal/Personal-code/c-sharp-sandbox/aug-18th-2022/bin/Debug/net6.0/aug-18th-2022.dll
+/Users/jarretnachtigal/Personal-code/c-sharp-sandbox/aug-18th-2022/bin/Debug/net6.0/aug-18th-2022.pdb
+/Users/jarretnachtigal/Personal-code/c-sharp-sandbox/aug-18th-2022/obj/Debug/net6.0/aug-18th-2022.dll
+/Users/jarretnachtigal/Personal-code/c-sharp-sandbox/aug-18th-2022/obj/Debug/net6.0/refint/aug-18th-2022.dll
+/Users/jarretnachtigal/Personal-code/c-sharp-sandbox/aug-18th-2022/obj/Debug/net6.0/aug-18th-2022.pdb
+/Users/jarretnachtigal/Personal-code/c-sharp-sandbox/aug-18th-2022/obj/Debug/net6.0/aug-18th-2022.genruntimeconfig.cache
+/Users/jarretnachtigal/Personal-code/c-sharp-sandbox/aug-18th-2022/obj/Debug/net6.0/ref/aug-18th-2022.dll

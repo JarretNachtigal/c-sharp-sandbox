@@ -47,7 +47,18 @@
         }
       }
       Console.WriteLine();
-      count++;
     }
+
+    // easier loop
+    foreach (int item in b)
+    {
+      // Console.WriteLine(item);
+    }
+
+    // or
+
+    // init with values
+    int[] d = new int[3] { 1, 2, 3 };
+
   }
 }

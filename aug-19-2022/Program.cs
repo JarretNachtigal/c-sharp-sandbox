@@ -33,11 +33,11 @@
 
     // "A delegate can reference either a static method (such as Square or Math.Sin in the previous example) 
     // or an instance method (such as m.Multiply in the previous example). A delegate that references an instance method also references 
-    // a particular object, and when the instance method is invoked through the delegate, that object becomes this in the invocation."
+    // a particular object, and when the instance method is invoked through the delegate, that object becomes 'this' in the invocation."
     public static void Main(String[] args)
     {
       double[] a = { 0.0, 0.5, 1.0 }; // example data
-      double[] squares = Apply(a, (x) => x * x); // example call with function param - (x) => x * x
+      double[] squares = Apply(a, (x) => x * x); // example call with function param - (x) => x * x (a lambda function declared in-line)
       double[] sines = Apply(a, Math.Sin); // example call with function param - Math.sin
       Multiplier m = new(2.0); // instantiate Miltiplier class
       double[] doubles = Apply(a, m.Multiply); // example call with lambda function param - m.Multiply

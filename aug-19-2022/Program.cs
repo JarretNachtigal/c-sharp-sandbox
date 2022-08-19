@@ -28,8 +28,12 @@
     }
 
 
-    // An instance of the Function delegate type can reference any method that takes a double argument and returns a double value. 
-    // The Apply method applies a given Function to the elements of a double[], returning a double[] with the results.
+    // "An instance of the Function delegate type can reference any method that takes a double argument and returns a double value. 
+    // The Apply method applies a given Function to the elements of a double[], returning a double[] with the results."
+
+    // "A delegate can reference either a static method (such as Square or Math.Sin in the previous example) 
+    // or an instance method (such as m.Multiply in the previous example). A delegate that references an instance method also references 
+    // a particular object, and when the instance method is invoked through the delegate, that object becomes this in the invocation."
     public static void Main(String[] args)
     {
       double[] a = { 0.0, 0.5, 1.0 }; // example data

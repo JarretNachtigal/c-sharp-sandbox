@@ -27,6 +27,9 @@
       return result;
     }
 
+
+    // An instance of the Function delegate type can reference any method that takes a double argument and returns a double value. 
+    // The Apply method applies a given Function to the elements of a double[], returning a double[] with the results.
     public static void Main(String[] args)
     {
       double[] a = { 0.0, 0.5, 1.0 }; // example data

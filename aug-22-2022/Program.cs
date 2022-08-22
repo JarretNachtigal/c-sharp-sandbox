@@ -24,3 +24,10 @@
 // - The base type it inherits from.
 // - The interface(s) it implements.
 // - The kinds of operations that are permitted.
+
+// Generic types - classes that take a data type as a param on creation
+
+// List<string> stringList = new List<string>();
+// stringList.Add("String example");
+// // compile time error adding a type other than a string:
+// stringList.Add(4);

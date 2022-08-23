@@ -7,14 +7,22 @@
 // MyNamespace.MyClass.MyMethod();
 // return 1
 
-// public class MyClass
-// {
-//     public static void TestMethod()
-//     {
-//         Console.WriteLine("Hello World!");
-//     }
+public class MyClass
+{
+  public static void TestMethod()
+  {
+    Console.WriteLine("Hello World!");
+  }
 
-// }
+  public static void Main(string[] args)
+  {
+    for (int i = 0; i < args.Length; i++)
+    {
+      Console.WriteLine(args[i]);
+    }
+  }
+
+}
 
 
 // The information stored in a type can include the following items:
@@ -31,3 +39,4 @@
 // stringList.Add("String example");
 // // compile time error adding a type other than a string:
 // stringList.Add(4);
+

@@ -1,0 +1,4 @@
+gamer
+oh yeah man
+this test file goes hard
+should be 4 lines of input

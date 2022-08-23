@@ -18,7 +18,7 @@ public class MyClass
   {
     for (int i = 0; i < args.Length; i++)
     {
-
+      Console.WriteLine(args[i]); // how to make this read from a txt file - StreamReader()
     }
   }
 
